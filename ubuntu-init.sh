@@ -88,3 +88,7 @@ EOF
 
 source ~/.bashrc
 source ~/.bash_profile
+
+# apt
+sudo apt-get update
+sudo apt-get -y install build-essential zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev
