@@ -7,9 +7,9 @@ rm -rf ~/screen
 
 # git
 wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
-mv git-completion.bash .git-completion.bash
+mv git-completion.bash ~/.git-completion.bash
 wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
-mv git-prompt.sh .git-prompt.sh
+mv git-prompt.sh ~/.git-prompt.sh
 git config --global user.email "iguchi.t@gmail.com"
 git config --global user.name "Takashi Iguchi"
 cat <<'EOF' >>~/.bashrc
@@ -24,7 +24,7 @@ EOF
 
 # ls color
 wget https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.ansi-universal
-mv dircolors.ansi-universal .dircolors
+mv dircolors.ansi-universal ~/.dircolors
 
 cat <<'EOF' >>~/.bashrc
 
