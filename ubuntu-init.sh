@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# screen
+git clone https://github.com/iguchikoma/screen.git ~/screen
+mv ~/screen/.screen* ~/
+rm -rf ~/screen
+
 # git
 wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 mv git-completion.bash .git-completion.bash
